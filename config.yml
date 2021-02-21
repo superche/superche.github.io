@@ -7,3 +7,5 @@ params:
   defaultTheme: "dark"
   label:
     icon: "/images/logo.png"
+  assets:
+    favicon: "/images/favicon.ico"
