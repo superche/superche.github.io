@@ -2,3 +2,8 @@ baseURL: https://blog.chezs.me/
 languageCode: zh-cn
 title: Che's Blog
 theme: "PaperMod"
+
+params:
+  defaultTheme: "dark"
+  label:
+    icon: "/images/logo.png"
