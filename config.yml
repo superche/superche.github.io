@@ -11,3 +11,4 @@ params:
   assets:
     favicon: "/images/favicon.ico"
   comments: true
+  ShowCcLicense: true

@@ -282,6 +282,14 @@
     margin-top: 56px
 }
 
+.post-cc {
+    color: var(--content)
+}
+
+.post-comments-container {
+    margin-top: 56px;
+}
+
 .post-tags li {
     display: inline-block;
     margin-inline-end: 3px;
