@@ -282,6 +282,10 @@
     margin-top: 56px
 }
 
+.post-cc-header {
+    font-size: 40px;
+}
+
 .post-cc {
     color: var(--content)
 }
