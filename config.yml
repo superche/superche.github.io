@@ -2,7 +2,7 @@ baseURL: https://blog.chezs.me/
 languageCode: zh-cn
 title: Che's Blog
 theme: "PaperMod"
-disqusShortname: "superche"
+disqusShortname: "chezsblog"
 
 params:
   defaultTheme: "dark"
