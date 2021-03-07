@@ -23,5 +23,11 @@ params:
     buttons:
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
+      - name: Diaries
+        url: diary
+menu:
+    main:
+        - identifier: dream_list
+          name: Dream List
+          url: /dream/
+          weight: 20
