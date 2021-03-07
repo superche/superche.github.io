@@ -10,7 +10,15 @@
     right: 0;
     align-items: center;
     height: 80%;
-    text-align: center
+    padding: 0 32px;
+}
+
+.main .profile h3 {
+    padding-bottom: 10px;
+}
+
+.main .profile p {
+    padding-bottom: 8px;
 }
 
 .profile .profile_inner h1 {
