@@ -3,6 +3,8 @@ languageCode: zh-cn
 title: Che's Blog
 theme: "PaperMod"
 disqusShortname: "chezsblog"
+enableRobotsTXT: true
+googleAnalytics: UA-PROPERTY_ID
 
 params:
   defaultTheme: "dark"
