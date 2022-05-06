@@ -28,3 +28,11 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+
+      - name: Deploy static to Tencent CloudBase
+        uses: TencentCloudBase/cloudbase-action@v2
+        with: 
+          # 云开发的访问密钥 secretId , secretKey 和 环境id, 其他配置见 cloudbaserc.json
+          secretId: ${{ secrets.TENCENT_CLOUD_SECRET_ID }}
+          secretKey: ${{ secrets.TENCENT_CLOUD_SECRET_KEY }}
+          envId: ${{ secrets.TENCENT_CLOUD_ENV_ID }}
