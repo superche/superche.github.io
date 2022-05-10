@@ -2,7 +2,6 @@ baseURL: https://blog.chezs.me/
 languageCode: zh-cn
 title: Che's Blog
 theme: "PaperMod"
-disqusShortname: "chezsblog"
 enableRobotsTXT: true
 googleAnalytics: UA-PROPERTY_ID
 
@@ -12,7 +11,7 @@ params:
     icon: "/images/logo.png"
   assets:
     favicon: "/images/favicon.ico"
-  comments: true
+  comments: false
   ShowCcLicense: true
   socialIcons:
     - name: "github"
