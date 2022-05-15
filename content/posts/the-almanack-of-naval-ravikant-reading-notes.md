@@ -1,5 +1,5 @@
 ---
-title: "The Almanack of Naval Ravikant Reading Notes"
+title: "《纳瓦尔宝典》读书笔记"
 date: 2022-05-14T23:31:07+08:00
 draft: false
 ---
