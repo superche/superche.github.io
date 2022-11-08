@@ -29,16 +29,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
 
-      - name: Install CloudBase-Cli
-        run: npm install -g @cloudbase/cli
-
-      - name: Login to Tencent CloudBase
-        env:
-          SECRET_ID: ${{ secrets.TENCENT_CLOUD_SECRET_ID }}
-          SECRET_KEY: ${{ secrets.TENCENT_CLOUD_SECRET_KEY }}
-        run: tcb login --apiKeyId "$SECRET_ID" --apiKey "$SECRET_KEY"
-
-      - name: Deploy to Tencent CloudBase
-        env:
-          ENV_ID: ${{ secrets.TENCENT_CLOUD_ENV_ID }}
-        run: tcb hosting deploy ./public -e "$ENV_ID" 
