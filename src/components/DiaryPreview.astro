@@ -1,0 +1,80 @@
+---
+const {diary} = Astro.props;
+import {formatDate} from '../utils/helpers'
+
+const usePublicImages = !diary.frontmatter.image?.startsWith('https://');
+
+---
+
+<article class="diary-preview__article">
+  <div class="diary-preview__text">
+    {diary.frontmatter?.category && <p class="diary-preview__category">{diary.frontmatter.category}</p>}
+    <strong>{diary.frontmatter.title}</strong>
+    <p class="diary-preview__date">{formatDate(diary.frontmatter.publishedAt)}</p>
+  </div>
+</article>
+</a>
+  
+<style>
+.diary-preview__link {
+  text-decoration: none;
+}
+.diary-preview__link:hover .diary-preview__img {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 10px 20px 0;
+  transform: scale(1.1);
+}
+.diary-preview__link:hover .diary-preview__text {
+  transform: translateX(0.5rem);
+}
+.diary-preview__article {
+  display: grid;
+  align-items: center;
+}
+.diary-preview__text {
+  transition: transform 0.2s ease-in-out;
+}
+.diary-preview__category {
+  width: fit-content;
+  padding: 0.25rem 0.75rem;
+  background-color: var(--theme-surface-1);
+  border-radius: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: var(--step--2);
+  /* color: #666; */
+}
+.diary-preview__text h2{
+  font-size: var(--step-1);
+}
+.diary-preview__img {
+  width: 250px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 1rem;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.diary-preview__date {
+  font-size: var(--step--1);
+  color: #666;
+}
+@media (max-width: 768px) {
+  .diary-preview__article {
+    grid-template-columns: 1fr;
+  }
+  .diary-preview__img {
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .diary-preview__text {
+    margin-top: 1rem;
+  }
+  .diary-preview__link:hover .diary-preview__img {
+    box-shadow: none;
+    transform: none;
+  }
+  .diary-preview__link:hover .diary-preview__text {
+    transform: none;
+  }
+}
+</style>
