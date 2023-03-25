@@ -1,6 +1,7 @@
 ---
 import Layout from './Page.astro';
 import Container from '../components/Container.astro';
+import CreativeCommons from '../components/CreativeCommons.astro';
 import { formatDate, slugify } from '../utils/helpers';
 
 const { frontmatter } = Astro.props;
@@ -67,6 +68,7 @@ const usePublicImages = !frontmatter.image?.startsWith('https://');
       <div class="post-content__content flow fade-in">
         <slot />
       </div>
+      <CreativeCommons />
     </article>
   </Container>
 </Layout>
