@@ -1,10 +1,10 @@
 ---
 import Layout from '../layouts/Page.astro'
 import Container from '../components/Container.astro';
-import DiaryList from '../components/DiaryList.astro';
+import TweetList from '../components/TweetList.astro';
 import { settings } from '../data/settings'
 
-const diaries = (await Astro.glob('./diary/*.{md,mdx}')).sort(
+const tweets = (await Astro.glob('./tweet/*.{md,mdx}')).sort(
 	(a, b) => new Date(b.frontmatter.publishedAt).valueOf() - new Date(a.frontmatter.publishedAt).valueOf()
 );
 
@@ -26,9 +26,9 @@ const seo = {
 <Layout seo={seo}>
   <Container>
     <div class="home-hero-text__container">
-      <h1 class="fade-in">Che's Diary</h1>
+      <h1 class="fade-in">Che's Tweets</h1>
     </div>
-    <DiaryList diaries={diaries}/>
+    <TweetList tweets={tweets}/>
   </Container>
 </Layout>
 

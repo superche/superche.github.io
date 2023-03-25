@@ -1,13 +1,13 @@
 ---
-import DiaryPreview from "./DiaryPreview.astro";
+import TweetPreview from "./TweetPreview.astro";
 
-const {diaries} = Astro.props;
+const {tweets} = Astro.props;
 ---
 
 <ul>
-  {diaries.filter((diary) => !diary.frontmatter.draft).map((diary) => (
+  {tweets.filter((tweet) => !tweet.frontmatter.draft).map((tweet) => (
     <li>
-      <DiaryPreview diary={diary} />
+      <TweetPreview tweet={tweet} />
     </li>
   ))}
 </ul>
