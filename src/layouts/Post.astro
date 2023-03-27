@@ -65,6 +65,14 @@ const usePublicImages = !frontmatter.image?.startsWith('https://');
           )
         }
       </div>
+      <div class="post-content__tag">
+        <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+          <img alt="知识共享许可协议" style="border-width: 0;" src="/images/cc-license.png" />
+        </a>
+        <a rel="notbyai" href="https://notbyai.fyi" target="_blank">
+          <img alt="written by human, not by AI" src="/images/written-by-human-not-by-ai-white.svg" />
+        </a>
+      </div>
       <div class="post-content__content flow fade-in">
         <slot />
       </div>
@@ -110,6 +118,14 @@ const usePublicImages = !frontmatter.image?.startsWith('https://');
     max-width: 100%;
     height: auto;
     border-radius: 2rem;
+  }
+  .post-content__tag {
+    display: flex;
+    margin: 0 0 2rem 0;
+  }
+  .post-content__tag img {
+    margin-right: 1rem;
+    height: 2rem;
   }
   .post-content__content :global(img) {
     display: block;
