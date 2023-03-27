@@ -6,7 +6,6 @@ const usePublicImages = !dream.frontmatter.image?.startsWith('https://');
 
 ---
 
-<a class="dream-preview__link fade-in" href={dream.url}>
 <article class="dream-preview__article">
   <!-- Hopefully we'll be able to use Astro's image integration for this soon -->
   {
@@ -30,7 +29,6 @@ const usePublicImages = !dream.frontmatter.image?.startsWith('https://');
     <h2>{dream.frontmatter.title}</h2>
   </div>
 </article>
-</a>
   
 <style>
 .dream-preview__link {
