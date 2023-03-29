@@ -28,7 +28,7 @@ Intel 认知到：硬件是一种软件。如果新的 CPU 实现了一个重要
 
 如果把计算机系统堆栈分层来看，上层是应用程序，底层是硬件。ISA 是整个堆栈的细腰部分。作为技术栈中最稳定的“细腰”接口，x86 ISA 是功能丰富的关键。
 
-![ISA-narrow-waist](/images/narrow-waist.png)
+![ISA-narrow-waist](https://raw.gitmirror.com/superche/blog-img/main/narrow-waist.png)
 
 # 认知
 
