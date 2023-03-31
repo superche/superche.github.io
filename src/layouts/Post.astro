@@ -22,7 +22,7 @@ const usePublicImages = !frontmatter.image?.startsWith('https://');
         {
           frontmatter.category && (
             <p class="post-content__category">
-              <a href={`/blog/category/${slugify(frontmatter.category)}`}>
+              <a href={`/posts/category/${slugify(frontmatter.category)}`}>
                 {frontmatter.category}
               </a>
             </p>
