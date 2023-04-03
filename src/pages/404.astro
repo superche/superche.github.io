@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Page.astro'
+import Container from '../components/Container.astro';
+import DreamList from '../components/DreamList.astro';
+import { settings } from '../data/settings'
+
+const seo = {
+  title: settings.title,
+  description: settings.description,
+}
+---
+
+<style>
+  .notfound__container {
+    display: grid;
+    place-items: center;
+    padding: 5vh 0;
+    height: 100%;
+  }
+  h1 {
+    text-align: center;
+  }
+</style>
+
+<Layout seo={seo}>
+  <div class="notfound__container">
+    <div>
+      <h1 class="fade-in">404</h1>
+      <a href="/">Take me home.</a>
+    </div>
+  </div>
+</Layout>
+
