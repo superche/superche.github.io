@@ -2,7 +2,7 @@
 layout: '../../layouts/Post.astro'
 title: "QUIC 0-RTT建连与问题"
 image: https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=10
-publishedAt: 2022-03-08T23:39:53+08:00
+pubDate: 2022-03-08T23:39:53+08:00
 draft: false
 category: 'Technology'
 ---

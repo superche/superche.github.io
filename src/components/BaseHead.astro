@@ -30,7 +30,7 @@ const image = new URL(Astro.props.image || './social.png', Astro.site);
 <!-- settingsmap -->
 <link rel="sitemap" href="/sitemap-index.xml">
 <!-- RSS -->
-<link rel="alternate" type="application/rss+xml" title={`${settings.name} Blog`} href={`${settings.url}/feed/blog.xml`}/>
+<link rel="alternate" type="application/rss+xml" title={`${settings.name} Blog`} href={`${settings.site}/feed/blog.xml`}/>
 <!-- Canonical -->
 <link rel="canonical" href={canonicalURL}>
 

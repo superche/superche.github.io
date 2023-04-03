@@ -28,7 +28,7 @@ const usePublicImages = !post.frontmatter.image?.startsWith('https://');
   <div class="post-preview__text">
     {post.frontmatter?.category && <p class="post-preview__category">{post.frontmatter.category}</p>}
     <h2>{post.frontmatter.title}</h2>
-    <p class="post-preview__date">{formatDate(post.frontmatter.publishedAt)}</p>
+    <p class="post-preview__date">{formatDate(post.frontmatter.pubDate)}</p>
   </div>
 </article>
 </a>

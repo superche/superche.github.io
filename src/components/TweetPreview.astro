@@ -10,7 +10,7 @@ const usePublicImages = !tweet.frontmatter.image?.startsWith('https://');
   <div class="tweet-preview__text">
     {tweet.frontmatter?.category && <p class="tweet-preview__category">{tweet.frontmatter.category}</p>}
     <strong>{tweet.frontmatter.title}</strong>
-    <p class="tweet-preview__date">{formatDate(tweet.frontmatter.publishedAt)}</p>
+    <p class="tweet-preview__date">{formatDate(tweet.frontmatter.pubDate)}</p>
   </div>
 </article>
 </a>

@@ -2,7 +2,7 @@
 layout: '../../layouts/Post.astro'
 title: "再次认识V8引擎"
 image: 'https://images.unsplash.com/photo-1604434171479-4bfa093e5a82?q=10'
-publishedAt: 2021-02-15T22:30:47+08:00
+pubDate: 2021-02-15T22:30:47+08:00
 keywords: "v8 ignition turbofan react-native"
 draft: false
 category: 'Technology'

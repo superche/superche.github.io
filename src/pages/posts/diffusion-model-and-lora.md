@@ -2,7 +2,7 @@
 layout: '../../layouts/Post.astro'
 title: "Stable Diffusion原理简述"
 image: 'https://raw.githubusercontent.com/superche/blog-img/main/latent-diffusion.png'
-publishedAt:  2023-04-02T19:33:44+08:00
+pubDate:  2023-04-02T19:33:44+08:00
 category: 'Technology'
 ---
 

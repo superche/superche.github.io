@@ -5,7 +5,7 @@ import DreamList from '../components/DreamList.astro';
 import { settings } from '../data/settings'
 
 const dreams = (await Astro.glob('./dream/*.{md,mdx}')).sort(
-	(a, b) => new Date(b.frontmatter.publishedAt).valueOf() - new Date(a.frontmatter.publishedAt).valueOf()
+	(a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
 );
 
 const seo = {

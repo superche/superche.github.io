@@ -2,7 +2,7 @@
 layout: '../../layouts/Post.astro'
 title: "发现利润区读书记录"
 image: 'https://images.unsplash.com/photo-1521790797524-b2497295b8a0?&q=10'
-publishedAt: 2022-11-01T23:15:46+08:00
+pubDate: 2022-11-01T23:15:46+08:00
 draft: false
 ---
 

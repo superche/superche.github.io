@@ -2,7 +2,7 @@
 layout: '../../layouts/Post.astro'
 title: "微信小程序WASM现状更新"
 image: 'https://images.unsplash.com/photo-1611746872915-64382b5c76da?q=10'
-publishedAt: 2022-02-15T23:30:17+08:00
+pubDate: 2022-02-15T23:30:17+08:00
 draft: false
 category: 'Technology'
 ---

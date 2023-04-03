@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/Post.astro'
 title: "Dns Based Service Discovery网络服务发现"
-publishedAt: 2021-05-13T23:06:15+08:00
+pubDate: 2021-05-13T23:06:15+08:00
 draft: true
 category: 'Technology'
 ---

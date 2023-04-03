@@ -2,7 +2,7 @@
 layout: '../../layouts/Post.astro'
 title: "从微服务的反模式联想到微前端"
 image: 'https://images.unsplash.com/photo-1509609256540-0ebae191d92b?q=10'
-publishedAt:  2021-10-26T23:49:44+08:00
+pubDate:  2021-10-26T23:49:44+08:00
 category: 'Technology'
 ---
 

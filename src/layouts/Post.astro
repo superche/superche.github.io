@@ -30,7 +30,7 @@ const usePublicImages = !frontmatter.image?.startsWith('https://');
         }
         <h1 class="post-content__title">{frontmatter.title}</h1>
         <p class="post-content__date">
-          <time>{formatDate(frontmatter.publishedAt)}</time>
+          <time>{formatDate(frontmatter.pubDate)}</time>
         </p>
         <!-- Hopefully we'll be able to use Astro's image integration for this soon -->
         {

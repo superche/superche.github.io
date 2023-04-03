@@ -2,7 +2,7 @@
 layout: '../../layouts/Post.astro'
 title: "随想 2021 08"
 image: 'https://images.unsplash.com/photo-1662434703972-9f18209a7758?q=10'
-publishedAt: 2021-08-28T23:24:51+08:00
+pubDate: 2021-08-28T23:24:51+08:00
 draft: false
 ---
 

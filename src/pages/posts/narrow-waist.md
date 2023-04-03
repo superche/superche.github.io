@@ -2,7 +2,7 @@
 layout: '../../layouts/Post.astro'
 title: "技术架构中的细腰"
 image: 'https://images.unsplash.com/photo-1492136344046-866c85e0bf04?q=10'
-publishedAt: 2022-09-12T22:49:08+08:00
+pubDate: 2022-09-12T22:49:08+08:00
 draft: false
 category: 'Technology'
 ---

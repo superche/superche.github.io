@@ -2,7 +2,7 @@
 layout: '../../layouts/Post.astro'
 title: "鲜活的数据-读书笔记"
 image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=10'
-publishedAt: 2021-04-06T22:59:41+08:00
+pubDate: 2021-04-06T22:59:41+08:00
 draft: false
 ---
 

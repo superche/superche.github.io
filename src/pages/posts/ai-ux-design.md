@@ -2,7 +2,7 @@
 layout: '../../layouts/Post.astro'
 title: "AI 生成 WebUI"
 image: https://raw.githubusercontent.com/superche/blog-img/main/chicken1.png
-publishedAt: 2023-03-20T23:39:53+08:00
+pubDate: 2023-03-20T23:39:53+08:00
 draft: false
 category: 'Technology'
 ---

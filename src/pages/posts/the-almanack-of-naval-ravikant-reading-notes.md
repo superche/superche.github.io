@@ -2,7 +2,7 @@
 layout: '../../layouts/Post.astro'
 title: "《纳瓦尔宝典》读书笔记"
 image: 'https://images.unsplash.com/photo-1633158829875-e5316a358c6f?&q=10'
-publishedAt: 2022-05-14T23:31:07+08:00
+pubDate: 2022-05-14T23:31:07+08:00
 draft: false
 math: true
 ---

@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/Post.astro'
 title: "Worker在Web和小程序的差异与使用"
-publishedAt: 2022-03-15T23:42:29+08:00
+pubDate: 2022-03-15T23:42:29+08:00
 draft: true
 category: 'Technology'
 ---

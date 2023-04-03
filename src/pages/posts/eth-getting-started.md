@@ -2,7 +2,7 @@
 layout: '../../layouts/Post.astro'
 title: "Eth Getting Started"
 image: 'https://images.unsplash.com/photo-1622790698141-94e30457ef12?q=10'
-publishedAt: 2022-08-28T16:05:13+08:00
+pubDate: 2022-08-28T16:05:13+08:00
 draft: false
 category: 'Technology'
 ---

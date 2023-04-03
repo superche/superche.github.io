@@ -2,7 +2,7 @@
 layout: '../../layouts/Post.astro'
 title: "架构特征的范围与架构量子"
 image: https://images.unsplash.com/photo-1545296664-39db56ad95bd?q=10
-publishedAt: 2023-01-20T23:39:53+08:00
+pubDate: 2023-01-20T23:39:53+08:00
 draft: false
 category: 'Technology'
 ---

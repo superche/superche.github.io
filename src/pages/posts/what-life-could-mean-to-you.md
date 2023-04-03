@@ -2,7 +2,7 @@
 layout: '../../layouts/Post.astro'
 title: "自卑与超越读后感"
 image: 'https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=10'
-publishedAt: 2022-05-10T23:32:10+08:00
+pubDate: 2022-05-10T23:32:10+08:00
 draft: false
 ---
 

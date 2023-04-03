@@ -2,7 +2,7 @@
 layout: '../../layouts/Post.astro'
 title: "风险管理入门"
 image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=10'
-publishedAt: 2021-03-09T00:02:01+08:00
+pubDate: 2021-03-09T00:02:01+08:00
 keywords: "风险管理 风险识别 风险量化 风险对策"
 draft: false
 category: 'Management'
