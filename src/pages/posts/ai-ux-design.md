@@ -4,7 +4,7 @@ title: "AI 生成 WebUI"
 image: https://raw.githubusercontent.com/superche/blog-img/main/chicken1.png
 pubDate: 2023-03-20T23:39:53+08:00
 draft: false
-category: 'Technology'
+category: 'AIGC'
 ---
 
 ## Step 1.设计 Prompts
