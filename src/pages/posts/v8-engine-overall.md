@@ -172,7 +172,9 @@ Inline Caching的思路就是将上一次访问的Hidden Class和偏移量缓存
 
 ### OSR (On Stack Replacement)
 
-有时候，V8会执行一些耗时非常长的方法。因此编译后的代码可能会在方法结束之前就被编译出来。那么，V8会把执行到一半的上下文，用OSR技术发送给编译后的代码，并继续执行。这部分逻辑比较复杂，可以参考：https://wingolog.org/archives/2011/06/20/on-stack-replacement-in-v8
+有时候，V8会执行一些耗时非常长的方法。因此编译后的代码可能会在方法结束之前就被编译出来。那么，V8会把执行到一半的上下文，用OSR技术发送给编译后的代码，并继续执行。这部分逻辑比较复杂，可以参考：
+
+https://wingolog.org/archives/2011/06/20/on-stack-replacement-in-v8
 
 
 
@@ -212,23 +214,23 @@ wasm
 
 ## 其他Refs
 
-https://fhinkel.rocks/2017/08/16/Understanding-V8-s-Bytecode/
+[Understanding-V8-s-Bytecode](https://fhinkel.rocks/2017/08/16/Understanding-V8-s-Bytecode/)
 
-https://zhuanlan.zhihu.com/p/28590489
+[理解 V8 的字节码「译」](https://zhuanlan.zhihu.com/p/28590489)
 
-https://docs.google.com/presentation/d/1chhN90uB8yPaIhx_h2M3lPyxPgdPmkADqSNAoXYQiVE/edit#slide=id.g1357e6d1a4_0_58
+[V8: Hooking up the Ignition to the Turbofan](https://docs.google.com/presentation/d/1chhN90uB8yPaIhx_h2M3lPyxPgdPmkADqSNAoXYQiVE/edit#slide=id.g1357e6d1a4_0_58)
 
-https://ponyfoo.com/articles/an-introduction-to-speculative-optimization-in-v8
+[An Introduction to Speculative Optimization in V8](https://ponyfoo.com/articles/an-introduction-to-speculative-optimization-in-v8)
 
-https://benediktmeurer.de/2017/03/01/v8-behind-the-scenes-february-edition
+[V8: Behind the Scenes](https://benediktmeurer.de/2017/03/01/v8-behind-the-scenes-february-edition)
 
-https://docs.google.com/document/d/1l-oZOW3uU4kSAHccaMuUMl_RCwuQC526s0hcNVeAM1E/edit
+[TurboFan Inlining](https://docs.google.com/document/d/1l-oZOW3uU4kSAHccaMuUMl_RCwuQC526s0hcNVeAM1E/edit)
 
-https://codeburst.io/node-js-v8-internals-an-illustrative-primer-83766e983bf6
+[Node.js V8 internals: an illustrative primer](https://codeburst.io/node-js-v8-internals-an-illustrative-primer-83766e983bf6)
 
-https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e
+[How JavaScript works: inside the V8 engine + 5 tips on how to write optimized code](https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e)
 
-https://zhuanlan.zhihu.com/p/27628685
+[认识V8引擎](https://zhuanlan.zhihu.com/p/27628685)
 
 # V8 与 React Native
 
@@ -250,11 +252,17 @@ JSI是一个精简的JS引擎接口：
 >
 > 在React Native中，我们同样使用了JSI来调用Java/ObjC方法。
 
-RN实现了基本的JS Runtime：https://github.com/facebook/react-native/blob/master/ReactCommon/jsi/jsi/jsi.h
+RN实现了基本的JS Runtime：
 
-可以需要开发Native模块，来丰富JSI的能力，例如：http://blog.nparashuram.com/2019/01/react-natives-new-architecture-glossary.html#jsi
+https://github.com/facebook/react-native/blob/master/ReactCommon/jsi/jsi/jsi.h
 
-在此基础上，我们就可以用V8Runtime来继承默认的JS Runtime！！！例如：https://github.com/Kudo/react-native-v8/blob/master/src/v8runtime/V8Runtime.h
+可以需要开发Native模块，来丰富JSI的能力，例如：
+
+http://blog.nparashuram.com/2019/01/react-natives-new-architecture-glossary.html#jsi
+
+在此基础上，我们就可以用V8Runtime来继承默认的JS Runtime！！！例如：
+
+https://github.com/Kudo/react-native-v8/blob/master/src/v8runtime/V8Runtime.h
 
 C++: truly cross-platform language 😂
 
@@ -280,7 +288,9 @@ Hermes的设计目标：针对移动端RN应用做性能优化，降低：
 
 3. 垃圾回收策略：按前两点的需求改进垃圾回收策略，同时每次GC不扫描整个JS Heap，减少GC时间
 
-Hermes 和 V8 的一些性能对比：[https://www.infoq.cn/article/ZPhAQPA0uqKyb5hT*i3p](https://www.infoq.cn/article/ZPhAQPA0uqKyb5hT*i3p)
+Hermes 和 V8 的一些性能对比：
+
+https://www.infoq.cn/article/ZPhAQPA0uqKyb5hT*i3p
 
 
 
